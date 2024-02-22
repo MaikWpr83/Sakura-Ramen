@@ -1,0 +1,319 @@
+/*Auflösung 1150px*/
+@media(max-width: 1150px){
+    .abschnitt_1{
+        align-items: center;
+    }
+
+    .sakura_logo{
+        height: 50px;
+    }
+
+    .menu{
+        font-size: 16px;
+    }
+
+    .phone{
+        font-size: 16px;
+        width: 150px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+
+    #deutsch_english{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu_1 h3{
+        font-size: 54px;
+    }
+
+    .menu_2 h3{
+        font-size: 54px;
+    }
+
+    .menu_3 h3{
+        font-size: 54px;
+    }
+
+}
+
+/*Auflösung 1030*/
+@media(max-width: 1030px){
+    .section{
+        padding-bottom: 96px;
+    }
+
+    .abschnitt_1{
+        padding: 40px 16px;
+    }
+
+    .menu{
+        padding-top: 10px;
+    }
+
+    .überschrift_1 h1{
+        font-size: 72px;
+    }
+
+    #überschrift_2 p{
+        font-size: 20px;
+    }
+
+    .abschnitt_2{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .überschrift_3 h2 {
+        padding-bottom: 48px;
+    }
+
+    .beschreibung{
+        width: 120px;
+    }
+
+    .beschreibung p{
+        font-size: 32px;
+    }
+
+    .pick_your{
+        padding-bottom: 8px;
+        width: 112px;
+    }
+
+    .überschrift_4 h2{
+        font-size: 64px;
+        padding-top: 96px;
+        padding-bottom: 48px;
+    }
+
+    .speisekarte h3{
+        font-size: 32px;
+        padding-bottom: 16px;
+    }
+
+    .speisekarte_img_beschreibung{
+        padding-right: 2px;
+        padding-left: 2px;
+        padding-bottom: 0px;
+    }
+
+    .speisekarte_img_beschreibung_3{
+        padding-left: 2px;
+        padding-bottom: 96px;
+    }
+
+    .speisekarte_beschreibung{
+        font-size: 24px;
+    }
+
+    .menu_1{
+        padding-left: 24px;
+        padding-top: 70px;
+    }
+
+    .menu_2{
+        padding-right: 24px;
+        padding-top: 70px;
+    }
+
+    .menu_3{
+        padding-left: 24px;
+        padding-top: 70px;
+    }
+
+    .maps_überschrift h2 {
+        font-size: 64px;
+    }
+
+    .adresse{
+        height: 20px;
+        padding-bottom: 48px;
+    }
+
+    .adresse p{
+        font-size: 20px;
+    }
+
+    .footer{
+        padding: 50px 16px;
+    }
+
+    .footer img{
+        height: 40px;
+    }
+}
+
+/*Auflösung 730px*/
+@media(max-width: 730px){
+    .section{
+        padding-bottom: 72px;
+    }
+
+    .abschnitt_1{
+        padding: 40px 12px;
+    }
+
+    .menu{
+        padding-top: 10px;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    #locations{
+        display: none;
+    }
+
+    #about{
+        display: none;
+    }
+
+    .phone{
+        font-size: 16px;
+        width: 150px;
+        padding-bottom: 5px;
+    }
+
+    .phone img{
+        padding-bottom: 5px;
+    }
+
+    .überschrift_1 h1{
+        font-size: 44px;
+    }
+
+    #überschrift_2 p{
+        font-size: 16px;
+    }
+
+    .sakura_logo{
+        height: 64px;
+    }
+
+    .abschnitt_2{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .überschrift_3 h2{
+        font-size: 40px;
+    }
+
+    .img_beschreibung {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .schüssel {
+        padding-bottom: 32px;
+    }
+
+    .abschnitt_3{
+        margin-bottom: 72px;
+        padding-bottom: 40px;
+    }
+
+    .überschrift_4 h2{
+        font-size: 40px;
+        padding-top: 72px;
+        padding-bottom: 40px;
+    }
+
+    .speisekarte_beschreibung{
+        padding-bottom: 32px;
+    }
+
+    .speisekarte_tbl{
+        display: flow;
+        text-align: center;
+    }
+
+    .speisekarte{
+        width: 79%;
+        padding-left: 16px;
+        padding-right: 60px;
+        padding-top: 24px;
+    }
+
+    .container_rotation{
+        transform: rotate(180deg);
+    }
+
+    .maps_überschrift h2 {
+        font-size: 40px;
+    }
+
+    .adresse p{
+        font-size: 16px;
+    }
+
+    .abschnitt_5{
+        height: 86px;
+    }
+
+    .footer {
+        padding: 23px 16px;
+    }
+    
+    .footer img {
+        height: 32px;
+    }
+
+    .logo_2 img{
+        height: 40px;
+    }
+
+    .logo_2 p{
+        display: none;
+    }
+}
+
+@media(max-width: 430px){
+    .menu{
+        display: flow-root;
+    }
+
+    .menu a{
+        margin-left: 0;
+    }
+}
+
+/*Auflösung 380*/
+ @media(max-width: 380px){
+    .überschrift_1 h1 {
+        font-size: 35px;
+    }
+
+    .überschrift_2 p{
+        font-size: 16px;
+    }
+
+    .überschrift_3 h2 {
+        font-size: 35px;
+    }
+
+    .speisekarte{
+        padding-right: 35px;
+        padding-left: 25px;
+    }
+
+    .speisekarte_img{
+        width: 280px;
+        height: 280px;
+    }
+
+    .maps_überschrift h2 {
+        font-size: 24px;
+    }
+    
+    .adresse p {
+        font-size: 14px;
+    }
+
+    iframe{
+        width: 98%;
+    }
+ }

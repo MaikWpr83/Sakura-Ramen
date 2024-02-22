@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Lugrasimo&family=Raleway:wght@100;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Lugrasimo&family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Lugrasimo&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+    <!--CSS einbinden-->
+    <link rel="stylesheet" href="stil.css">
+    <link rel="stylesheet" href="responsiv.css">
+
+    <!--JavaScript einbinden-->
+    <script src="übersetzen.js"></script>
+
+    <title>Sakura Ramen</title>
+
+</head>
+
+<body class="myBody">
+       
+    <!--Hintergrundbild Header-Bereich-->
+    <img class="hero_image section" src="./img/hero.jpg">
+
+        <!--Abschnitt 1 - Header, Logo - Menü - Flaggen-->
+        <div class="abschnitt_1">
+
+            <!--Logo-->
+            <img class="sakura_logo" src="./img/sakura_logo.png">
+            
+            <!--Menü-->
+            <div class="menu">
+                
+                <a id="menu" href="#menu">Menu</a> 
+                <a id="locations" href="#anfahrt">Locations</a> 
+                <a id="about" href="#über_uns">About</a>
+    
+                <a class="phone" href="tel:01520457863">
+                <img src="./img/telefon.png" alt>0176 54564534</a>
+
+                  <!--Flaggen mit 'onclick'-Funktion einbinden (JavaScript)-->
+            <div id="deutsch_english">
+                <img onclick="deutsch()" src="./img/deutsch.png">
+                <img onclick="english()" src="./img/english.png">
+            </div>
+                
+            </div>
+
+          
+
+            <!--Überschrift-->
+            <div class="überschrift_1">
+                <h1>SAKURA RAMEN</h1>
+
+                <div class="überschrift_2">
+                    <p id="überschrift_2">THE BEST RAMEN IN TOWN</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Abschnitt 2 - Bestellung-->
+        <div class="abschnitt_2 section">
+        
+            <div class="überschrift_3">
+                <h2 id="überschrift_3">HOW TO ORDER</h2>
+            </div>
+
+            <div class="img_beschreibung">
+
+                <div class="beschreibung schüssel">
+                    <img class="nudelschüssel pick_your" src="./img/nudeln.png">
+                    <p id="nudel">Pick your noodle</p>
+                </div>
+
+                <div class="beschreibung schüssel">
+                    <img class="suppenschüssel pick_your" src="./img/suppe.png">
+                    <p id="suppe">Pick your broth</p>
+                </div>
+
+                <div class="beschreibung">
+                    <img class="eier pick_your" src="./img/eier.png">
+                    <p id="eier">Add your toppings</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Abschnitt 3 - Menü's-->
+        <div class="abschnitt_3">
+
+            <div class="überschrift_4">
+                <h2 id="überschrift_4">OUR MENU</h2>
+            </div>
+                
+            <div class="img_beschreibung_our_menu_1 speisekarte_img_beschreibung speisekarte_tbl">
+
+                <img class="speise_1 speisekarte_img" src="./img/tonkotsu_ramen.png">
+                    
+                <div class="menu_1 speisekarte">
+                    <h3>Tonkotsu Ramen</h3>
+
+                    <div class="menu_beschreibung speisekarte_beschreibung">
+                        <table>
+                            <tr>
+                                <td id="chicken_menu_1">CHICKEN</td>
+                                <td>11.95 €</td>
+                            </tr>
+                                   
+                            <tr>
+                                <td id="beef_menu_1">BEEF</td>
+                                <td>12.95 €</td>
+                            </tr>
+                                
+                            <tr>
+                                <td id="shrimp_menu_1">SHRIMP</td>
+                                <td>13.95 €</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="img_beschreibung_our_menu_2 speisekarte_img_beschreibung speisekarte_tbl container_rotation">
+
+                <div class="menu_2 speisekarte container_rotation">
+                    <h3>Spicy Miso Ramen</h3>
+
+                    <div class="menu_beschreibung speisekarte_beschreibung">
+                        <table>
+                            <tr>
+                                <td id="chicken_menu_2">CHICKEN</td>
+                                <td>11.95 €</td>
+                            </tr>
+
+                            <tr>
+                                <td id="beef_menu_2">BEEF</td>
+                                <td>12.95 €</td>
+                            </tr>
+
+                            <tr>
+                                <td id="shrimp_menu_2">SHRIMP</td>
+                                <td>13.95 €</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+
+                <img class="speise_2 speisekarte_img container_rotation" src="./img/spicy_miso_ramen.png">
+
+            </div>
+
+            <div class="img_beschreibung_our_menu_3 speisekarte_img_beschreibung_3 speisekarte_tbl">
+
+                <img class="speise_3 speisekarte_img" src="./img/shio_ramen.png">
+
+                <div class="menu_3 speisekarte">
+                    <h3>Shio Ramen</h3>
+
+                    <div class="menu_beschreibung speisekarte_beschreibung">
+
+                        <table>
+                            <tr>
+                                <td id="chicken_menu_3">CHICKEN</td>
+                                <td>11.95 €</td>
+                            </tr>
+                                   
+                            <tr>
+                                <td id="beef_menu_3">BEEF</td>
+                                <td>12.95 €</td>
+                            </tr>
+                                    
+                            <tr>
+                                <td id="shrimp_menu_3">SHRIMP</td>
+                                <td>13.95 €</td>
+                            </tr>
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+            
+        <!--Abschnitt 4 - Maps-->
+        <div class="abschnitt_4" id="anfahrt">
+
+            <div class="maps_überschrift">
+                    
+                <h2 id="maps_überschrift">FIND US AT</h2>
+
+                <div class="adresse">
+
+                    <img class="straße_ort" src="./img/standort.png">
+
+                    <p>Kapuzinerstraße 31, München, 80337</p>
+
+                </div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.207967591075!2d11.558628376756202!3d48.12551265200053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf44d01affc5%3A0xe7a07e0710be63e8!2sKapuzinerstra%C3%9Fe%2031%2C%2080337%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1694540626168!5m2!1sde!2sde" 
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
+        </div>
+
+        <!--Abschnitt 5 - Footer-->
+        <div class="abschnitt_5">
+
+            <div class="footer">
+
+                <div class="logo_2">
+                    <img class="footer_sakura_logo_2" src="./img/sakura_logo.png">
+                    <p>Sakura Ramen</p>
+                </div>
+
+                <div class="footer_img">
+                    <img class="tripadvisor" src="./img/tripadvisor.png">
+                    <img class="facebook" src="./img/facebook.png">
+                    <img class="instagram" src="./img/instagram.png">
+                </div>
+
+            </div>
+    
+        </div>
+
+</body>
+</html>
